@@ -1,0 +1,23 @@
+{
+  "name": "basicsnodejs-npm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "maintenance": "node maintenance/maintenance.js"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^=2.18.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^=4.2.1",
+    "nodemon": "^2.0.3"
+  }
+}
